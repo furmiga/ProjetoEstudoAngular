@@ -1,0 +1,4 @@
+//criando um modulo sem dependencias
+angular.module('main' , []);
+
+angular.module('main').controller('EnderecoController');

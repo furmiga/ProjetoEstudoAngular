@@ -1,0 +1,5 @@
+
+function EnderecoController($scope){
+	$scope.endereco = [{rua:"teste 1"} , {rua:"teste 2"}];
+	
+}

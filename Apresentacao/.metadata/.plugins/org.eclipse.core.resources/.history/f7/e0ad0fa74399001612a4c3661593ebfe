@@ -1,0 +1,8 @@
+
+function EnderecoController($scope , $http){
+	$scope.enderecos = [];
+	var promisse = $http.get('');
+	promisse.then(function(retorno){
+		
+	})
+}

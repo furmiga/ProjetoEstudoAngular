@@ -1,0 +1,12 @@
+<div>
+	<table class="table table-bordered">
+		<tr>
+			<th>Logradouro</th>
+			<th>Complemento</th>
+			<th>Bairro</th>
+		</tr>
+		<tr>
+			<td>{{endereco}}</td>
+		</tr>
+	</table>
+</div>

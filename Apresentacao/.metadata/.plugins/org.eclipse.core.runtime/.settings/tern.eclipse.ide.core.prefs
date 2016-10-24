@@ -1,0 +1,4 @@
+defaultTernModules=guess-types,outline,angular1,ecma5,browser
+disableAsyncRequests=true
+eclipse.preferences.version=1
+repositories=

@@ -1,0 +1,21 @@
+angular.module('main').controller('EnderecoController',
+				function($scope, $http) {
+					$scope.enderecos = [];
+					$scope.consultarEndereco = function() {
+						var promisse = $http.get('https://viacep.com.br/ws/06321650/json/');
+						
+						// promisse.then(function(retorno){
+						// $scope.enderecos = retorno.data;
+						// }).catch(function (erro){
+						// console.log(erro);
+						// });
+						promisse.success(function(retorno) {
+
+							$scope.enderecos = retorno;// não precisa fazer
+														// retorno.data
+							console.log($scope.enderecos);
+						}).error(function(erro) {
+							console.log(erro);
+						});
+					}
+				});

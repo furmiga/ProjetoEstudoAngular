@@ -1,0 +1,24 @@
+angular.module('minhasDiretivas',[]).directive('gridEnderecos',function(){
+		//directive definition object(objeto que ira definir a diretiva)
+		var ddo;
+		
+		//indica que eu posso usar minha diretiva tanto como atributo quanto como elemento
+		ddo.restrict = "AE";
+		
+		ddo.scope = {
+			endereco: '@endereco'
+		};
+		
+		ddo.template = 
+			'<div>'
+		+		'<table>'
+		+			'<tr>'
+		+			'<th>rua</th>'
+		+			'</tr>'
+		+			'<tr>'
+		+			'<td>{{endereco}}</td>'
+		+			'</tr>'
+		+		'</table>'
+		+	'</div>'
+	}
+);

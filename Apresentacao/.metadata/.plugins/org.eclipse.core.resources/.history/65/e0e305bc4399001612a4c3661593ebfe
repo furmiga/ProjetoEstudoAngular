@@ -1,0 +1,10 @@
+
+function EnderecoController($scope , $http){
+	$scope.enderecos = [];
+	var promisse = $http.get('https://viacep.com.br/ws/06321650/json/');
+	promisse.then(function(retorno){
+		
+	}).catch(function (erro){
+		console.log(erro);
+	});
+}

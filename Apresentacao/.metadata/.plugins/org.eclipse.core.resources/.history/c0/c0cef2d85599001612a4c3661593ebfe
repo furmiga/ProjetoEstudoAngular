@@ -1,0 +1,14 @@
+<div>
+	<table class="table table-bordered">
+		<tr>
+			<th>Logradouro</th>
+			<th>Complemento</th>
+			<th>Bairro</th>
+		</tr>
+		<tr>
+			<td>{{logradouro}}</td>
+			<td>{{complemento}}</td>
+			<td>{{bairro}}</td>
+		</tr>
+	</table>
+</div>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="http://code.angularjs.org/1.0.1/angular-1.0.1.min.js"></script>
+<script src="resource/ModuloPrincipal.js"></script>
+<script src="resource/ControllerAngular.js"></script>
+<script src="resource/diretivas/DiretivasPrincipais.js"></script>
+</head>
+<body ng-app="main" ng-controller="EnderecoController">
+		<span class="col-md-8 alert alert-warn">
+				teste
+		</span>	
+	<div class="col-md-8">
+		<h3>Exemplo <small>consulta de cep</small></h3>
+		<hr/>
+		<div class="form-inline">
+			<input class="form-control" type="text" ng-model="texto" placeholder="Informe o CEP"/>
+			<button  class="btn btn-primary" ng-click="consultarEndereco()" >Pesquisar</button>
+			<button  class="btn btn-success" ng-click="limpar()" >Limpar</button>
+		</div>
+		<br>
+		<grid-enderecos logradouro="{{enderecos.logradouro}}" 
+						complemento="{{enderecos.complemento}}"
+						bairro="{{enderecos.bairro}}"
+						localidade="{{enderecos.localidade}}"
+						uf="{{enderecos.uf}}"></grid-enderecos>
+	</div>
+</body>
+</html>

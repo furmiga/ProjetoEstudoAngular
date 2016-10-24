@@ -1,0 +1,10 @@
+<div>
+	<table>
+		<tr>
+			<th>rua</th>
+		</tr>
+		<tr>
+			<td>{{endereco}}</td>
+		</tr>
+	</table>
+</div>

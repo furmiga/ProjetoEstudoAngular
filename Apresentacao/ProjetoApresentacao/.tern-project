@@ -1,0 +1,28 @@
+{
+  "ecmaVersion": 5,
+  "plugins": {
+    "guess-types": {
+      
+    },
+    "outline": {
+      
+    },
+    "tabris": {
+      
+    },
+    "angular1": {
+      
+    },
+    "threejs": {
+      
+    },
+    "bootstrap": {
+      
+    }
+  },
+  "libs": [
+    "browser",
+    "titanium",
+    "jquery"
+  ]
+}
