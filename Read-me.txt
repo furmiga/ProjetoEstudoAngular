@@ -1,0 +1,3 @@
+Caso tenha algum problema para abrir o projeto, basta importa-lo normalmente pelo eclipse.
+
+Quaquer duvida so mandar um email para min : victor.dantas@yaman.com.br :D
